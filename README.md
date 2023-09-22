@@ -1,4 +1,5 @@
-# optimize_honeycomb
+# optimize_honeycomb\model_save proble
+
 model_save:
 当class为自定义，然后需要保存为.h5时，需要将class添加一个def get_config(self)的子类部分，进行更行class的参数然后以字典的形式保存：
 class skip_con(tf.keras.layers.Layer):
